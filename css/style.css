@@ -1,0 +1,28 @@
+.not-spacing {
+  margin: 0px;
+  padding: 0px;
+  background-color: red;
+}
+
+.bg-menu {
+  background-color: #26828f;
+}
+
+.text-color-white {
+  color: white;
+}
+
+.text-color-fushia {
+  color: #de2554;
+}
+
+.btn-color {
+  background-color: #de2554 !important;
+}
+
+.underline {
+  font-weight: 700;
+  border-bottom: 3px solid #26828f;
+  display: inline-block;
+  font-family: sans-serif;
+}
