@@ -13,12 +13,11 @@
     <!-- MENU -->
       <nav class="navbar navbar-expand-lg navbar-light bg-menu">
         <div class="ml-5">
-        <a class="navbar-brand " href="#">
-
+        <a class="navbar-brand ms-5" href="#">
             <img
             src="/assets/sosh-logo.svg"
-            width="70"
-            height="70"
+            width="90"
+            height="50"
             alt="logo-sosh"
             />
           </a>
@@ -37,29 +36,29 @@
         <div class="collapse navbar-collapse " id="navbarNav">
           <ul class="navbar-nav ms-auto text-center d-flex justify-content-center align-items-center mt-2 mt-lg-0 ">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Accueil</span></a>
+              <a class="nav-link text-white" href="#">Accueil</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contrats et options</a>
+              <a class="nav-link text-white" href="#">Contrats et options</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Facturations</a>
+              <a class="nav-link text-white" href="#">Facturations</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Équipements</a>
+              <a class="nav-link text-white" href="#">Équipements</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nous contacter</a>
+              <a class="nav-link text-white" href="#">Nous contacter</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/fox.jpg" width="40" height="40" class="rounded-circle">
                 John Doe
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Mon compte</a>
-                  <a class="dropdown-item" href="#">Paramètres</a>
-                  <a class="dropdown-item" href="#">Déconnexion</a>
+                  <a class="dropdown-item text-white" href="#">Mon compte</a>
+                  <a class="dropdown-item text-white" href="#">Paramètres</a>
+                  <a class="dropdown-item text-white" href="#">Déconnexion</a>
                 </div>
             </li>
         </div>
@@ -74,74 +73,77 @@
             <h1>Numéro d'abonnement: MOB61047852</h1>
             </div>
             <div class="col-sm-3 d-flex justify-content-end ">
-              <button class="btn btn-color btn-lg text-white"><i class="fa-solid fa-headset"></i> ASSISTANCE</button>
+              <button class="btn btn-color btn-lg text-white fw-bold"><i class="fa-solid fa-headset pe-2"></i> ASSISTANCE</button>
             </div>
           </section>
 
           <!-- Informations personnelles -->
-          <section class="row mt-5">
+          <section class="row mt-5 bg-block">
             <div class="col-sm-8">
-              <h4 class="underline text-color-fushia"><i class="fa-solid fa-user"></i> Informations personnelles</h4>
+              <h4 class="underline text-color-fushia"><i class="fa-solid fa-user ps-2 pe-1"></i> Informations personnelles</h4>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-end">
+              <button class="btn btn-color btn-sm text-white fw-bold"><i class="fa-solid fa-edit ps-2 pe-2"></i> Modifier</button>
             </div>
 
-            <div class="col-sm-4">
-              <button class="btn btn-color btn-sm text-white"><i class="fa-solid fa-edit"></i> Modifier</button>
-            </div>
-
+            <div class="row gy-3">
             <!-- NOM -->
-            <div class="col-sm-6">
-              <h5>Nom</h5>
-              <p>Doe</p>
+            <div class="col-7">
+              <h5 class="text-color-gray spacing">Nom</h5>
+              <p class="fw-bold">Doe</p>
             </div>
             <!-- PRENOM -->
-            <div class="col-sm-6">
-              <h5> Prenom</h5>
-              <p> John</p>
+            <div class="col-4">
+              <h5 class="text-color-gray spacing"> Prenom</h5>
+              <p class="fw-bold"> John</p>
             </div>
             <!-- TEL MOBILE -->
-            <div class="col-sm-6">
-              <h5>Téléphone mobile</h5>
-              <p>0694 12 34 56</p>
+            <div class="col-7">
+              <h5 class="text-color-gray spacing">Téléphone mobile</h5>
+              <p class="fw-bold">0694 12 34 56</p>
             </div>
             <!-- EMAIL -->
-            <div class="col-sm-6">
-              <h5>Adresse email</h5>
-              <p>john.doe@gmail.com</p>
+            <div class="col-4">
+              <h5 class="text-color-gray spacing">Adresse email</h5>
+              <p class="fw-bold">john.doe@gmail.com</p>
             </div>
             <!-- ADRESSE -->
-            <div class="col-sm-12">
-              <h5>Adresse domicile</h5>
-              <p>Appartement 78, 26 rue du Paillle en queue - 97413 Cilaos, la Réunion</p>
+            <div class="col-12">
+              <h5 class="text-color-gray spacing">Adresse domicile</h5>
+              <p class="fw-bold">Appartement 78, 26 rue du Paille en queue - 97413 Cilaos, la Réunion</p>
             </div>
+            </div>
+
           </section>
 
           <!-- CONSOMMATION EN COURS -->
-          <section class="row mt-5">
+          <section class="row mt-5 bg-block">
             <div class="col-sm-12 mb-5">
               <h1 class="text-black">Consommation en cours</h1>
             </div>
 
             <!-- NOM -->
             <div class="col-sm-4">
-              <h5 class="underline text-color-fushia "><i class="fa-solid fa-globe pl-4"></i>Internet mobile</h5>
-              <div class="progress" role="progressbar" aria-label="consommation-en-cours" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
-                <div class="progress-bar" style="width: 30%">30%</div>
+              <h5 class="underline text-color-fushia mb-4 spacing"><i class="fa-solid fa-globe ps-2 pe-2"></i>Internet mobile</h5>
+              <p class="fw-bold">Utilisés 15/50 Go <span>-</span> <span class="text-color-fushia">Reste: 35 Go</span></p>
+              <div class="progress " role="progressbar" aria-label="consommation-en-cours" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar progress-bar-blue" style="width: 30%">30%</div>
               </div>
-              <p>Utilisés 15/50 Go - <span>Reste: 35 Go</span></p>
             </div>
             <!-- PRENOM -->
             <div class="col-sm-4">
-              <h5 class="underline text-color-fushia"><i class="fa-solid fa-message"></i>SMS / MMS</h5>
-              <p>Illimité</p>
+              <h5 class="underline text-color-fushia spacing mb-4"><i class="fa-solid fa-message ps-2 pe-2"></i>SMS / MMS</h5>
+              <p class="fw-bold">Illimité</p>
             </div>
             <!-- TEL MOBILE -->
             <div class="col-sm-4">
-              <h5 class="underline text-color-fushia"><i class="fa-solid fa-phone"></i>Appels téléphonique</h5>
-              <p>Illimité</p>
+              <h5 class="underline text-color-fushia spacing mb-4"><i class="fa-solid fa-phone ps-2 pe-2"></i>Appels téléphonique</h5>
+              <p class="fw-bold">Illimité</p>
             </div>
 
-            <div class="col-sm-12 d-flex justify-content-end">
-              <button class="btn btn-color btn-sm  text-white"><i class="fa-solid fas fa-chevron-right"></i> Détails</button>
+
+            <div class="col-sm-12 d-flex justify-content-end mt-5">
+              <button class="btn btn-color btn-sm ps-2 pe-2 text-white fw-bold"><i class="fa-solid fas fa-chevron-right ps-2 pe-1"></i> Détails</button>
             </div>
           </section>
 
